@@ -9,7 +9,7 @@ pipeline {
             steps {
                 git credentialsId: 'Crushpowerx',
                     branch: 'main',
-                    url: 'https://github.com/Crushpowerx/JavaMavenTestngSelenideExample.git'
+                    url: 'https://github.com/cherevkoai/jenkins.git'
             }
         }
 	stage('Prepare Selenoid') {
