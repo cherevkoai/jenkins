@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Git checkout') {
             steps {
-                git credentialsId: 'Crushpowerx',
+                git credentialsId: 'cherevkoai',
                     branch: 'main',
                     url: 'https://github.com/cherevkoai/jenkins.git'
             }
